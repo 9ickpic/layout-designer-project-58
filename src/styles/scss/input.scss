@@ -1,8 +1,18 @@
+$white: #ccc;
+$opacity-white: #d7ccc0;
+$light: #f5f4f0;
+$main: #fe8a02;
+$dark-main: #42413c;
+$dark: #2a2626;
+$opacity-dark: #908d8b;
+$brown: #b09a81;
+$blue: #1085c5;
+
 body {
     font-family: "Open Sans", serif;
     font-size: 16px;
     line-height: 1.6em;
-    color: #2a2626;
+    color: $dark;
     width: 1110px;
     margin: 100px auto;
 }
@@ -27,5 +37,3 @@ h2 {
 h3 {
     font-size: 34px;
 }
-
-/*# sourceMappingURL=style.css.map */
