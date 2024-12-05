@@ -8,13 +8,41 @@ $opacity-dark: #908d8b;
 $brown: #b09a81;
 $blue: #1085c5;
 
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin mr-30 {
+    margin-right: 30px;
+}
+
 body {
     font-family: "Open Sans", serif;
     font-size: 16px;
     line-height: 1.6em;
     color: $dark;
-    width: 1110px;
-    margin: 100px auto;
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: $light;
+    height: 49px;
+    min-width: 148px;
+    max-width: 148px;
+    font-weight: bold;
+    background-color: $main;
+    text-align: center;
+    align-content: center;
+    margin-top: 24px;
 }
 
 h1,
@@ -24,6 +52,7 @@ h4,
 h5 {
     font-family: "Neucha", serif;
     line-height: 1.2em;
+    font-weight: 400;
 }
 
 h1 {
@@ -36,4 +65,71 @@ h2 {
 
 h3 {
     font-size: 34px;
+}
+
+header,
+footer,
+section {
+    width: 1110px;
+    margin: 100px auto;
+}
+
+.bg-container::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    background-image: url(/src/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 10%;
+}
+
+.bg-container {
+    overflow: hidden;
+}
+
+header {
+    @include flex-column();
+    position: relative;
+
+    .header-present {
+        @include flex-row();
+
+        position: relative;
+
+        img {
+            position: absolute;
+            height: 525px;
+            right: -270px;
+            z-index: -1;
+        }
+
+        span {
+            color: $main;
+        }
+
+        h1 {
+            width: 100%;
+        }
+    }
+
+    .text {
+        @include flex-row();
+        margin-top: 125px;
+
+        div {
+            display: flex;
+            width: 540px;
+        }
+
+        .two-p {
+            @include flex-column();
+        }
+
+        .mr-30 {
+            @include mr-30();
+        }
+    }
 }
