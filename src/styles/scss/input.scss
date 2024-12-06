@@ -32,19 +32,6 @@ body {
     position: relative;
 }
 
-a {
-    text-decoration: none;
-    color: $light;
-    height: 49px;
-    min-width: 148px;
-    max-width: 148px;
-    font-weight: bold;
-    background-color: $main;
-    text-align: center;
-    align-content: center;
-    margin-top: 24px;
-}
-
 h1,
 h2,
 h3,
@@ -65,6 +52,10 @@ h2 {
 
 h3 {
     font-size: 34px;
+}
+
+.orange {
+    color: $main;
 }
 
 header,
@@ -106,10 +97,6 @@ header {
             z-index: -1;
         }
 
-        span {
-            color: $main;
-        }
-
         h1 {
             width: 100%;
         }
@@ -131,5 +118,49 @@ header {
         .mr-30 {
             @include mr-30();
         }
+    }
+
+    a {
+        text-decoration: none;
+        color: $light;
+        height: 49px;
+        min-width: 148px;
+        max-width: 148px;
+        font-weight: bold;
+        background-color: $main;
+        text-align: center;
+        align-content: center;
+        margin-top: 24px;
+    }
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.preview-image {
+    @include flex-column();
+    text-align: center;
+    margin-top: 0;
+
+    h2 {
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        margin-top: -27px;
+        margin-bottom: -70px;
+    }
+
+    a {
+        position: relative;
+        bottom: -100px;
+    }
+
+    img {
+        width: 919px;
+        height: 517px;
+        filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
     }
 }

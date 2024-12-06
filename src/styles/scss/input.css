@@ -8,19 +8,6 @@ body {
   position: relative;
 }
 
-a {
-  text-decoration: none;
-  color: #f5f4f0;
-  height: 49px;
-  min-width: 148px;
-  max-width: 148px;
-  font-weight: bold;
-  background-color: #fe8a02;
-  text-align: center;
-  align-content: center;
-  margin-top: 24px;
-}
-
 h1,
 h2,
 h3,
@@ -41,6 +28,10 @@ h2 {
 
 h3 {
   font-size: 34px;
+}
+
+.orange {
+  color: #fe8a02;
 }
 
 header,
@@ -82,9 +73,6 @@ header .header-present img {
   right: -270px;
   z-index: -1;
 }
-header .header-present span {
-  color: #fe8a02;
-}
 header .header-present h1 {
   width: 100%;
 }
@@ -103,4 +91,44 @@ header .text .two-p {
 }
 header .text .mr-30 {
   margin-right: 30px;
+}
+header a {
+  text-decoration: none;
+  color: #f5f4f0;
+  height: 49px;
+  min-width: 148px;
+  max-width: 148px;
+  font-weight: bold;
+  background-color: #fe8a02;
+  text-align: center;
+  align-content: center;
+  margin-top: 24px;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.preview-image {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 0;
+}
+.preview-image h2 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.preview-image p {
+  margin-top: -27px;
+  margin-bottom: -70px;
+}
+.preview-image a {
+  position: relative;
+  bottom: -100px;
+}
+.preview-image img {
+  width: 919px;
+  height: 517px;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }/*# sourceMappingURL=input.css.map */
