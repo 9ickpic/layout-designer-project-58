@@ -364,4 +364,57 @@ header a {
 }
 .distortion-of-novelty .present-container-text .present-text p {
   margin: 0;
+}
+
+.hyperbolic-depreciation {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 100px;
+  color: #fff;
+  margin-bottom: 0;
+}
+.hyperbolic-depreciation .present {
+  display: flex;
+  flex-direction: row;
+  flex-direction: row-reverse;
+}
+.hyperbolic-depreciation .present img {
+  margin-right: 30px;
+}
+.hyperbolic-depreciation .present .texture-text-opacity {
+  color: #d7ccc0;
+  font-family: "Neucha", serif;
+  font-size: 24px;
+}
+.hyperbolic-depreciation .present h2 {
+  margin: 0 0 30px 0;
+  color: #fff;
+}
+.hyperbolic-depreciation .present p {
+  font-family: "Neucha", serif;
+  font-size: 34px;
+  line-height: 40.8px;
+}
+.hyperbolic-depreciation .present-container-text {
+  display: flex;
+  flex-direction: column;
+}
+.hyperbolic-depreciation .present-container-text h5 {
+  margin: 100px 0 20px 0;
+  width: 1100px;
+  color: #b09a81;
+  font-family: "Open Sans", serif;
+  font-weight: bold;
+  background-color: #fff;
+  padding: 5px 0 5px 10px;
+}
+.hyperbolic-depreciation .present-container-text .present-text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.hyperbolic-depreciation .present-container-text .present-text .mr-30 {
+  margin-right: 30px;
+}
+.hyperbolic-depreciation .present-container-text .present-text p {
+  margin: 0;
 }/*# sourceMappingURL=input.css.map */
