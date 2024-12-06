@@ -470,4 +470,77 @@ header a {
 }
 .errors-in-planning .present-container-text .present-text p {
   margin: 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 581px;
+  margin: 0 auto;
+}
+footer .container {
+  background-color: #42413c;
+  color: #fff;
+  width: 100%;
+  height: 190px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container h3 {
+  padding: 55px;
+}
+footer .container form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 55px;
+}
+footer .container form div {
+  width: 415px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+footer .container form .font {
+  font-size: 18px;
+}
+footer .container form input {
+  height: 50px;
+  width: 100%;
+  padding-left: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  border: none;
+}
+footer .container form button {
+  position: relative;
+  min-height: 50px;
+  min-width: 70px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  background-color: #fe8a02;
+}
+footer .container form button::before {
+  content: url(/src/images/send.svg);
+  position: absolute;
+  transform: translateY(-50%) translateX(-50%);
+}
+footer .container form .accept {
+  font-size: 12px;
+}
+footer .author {
+  margin-top: 76px;
+  margin-bottom: 16px;
+}
+footer p {
+  margin-top: 0;
+  margin-bottom: 16px;
 }/*# sourceMappingURL=input.css.map */
