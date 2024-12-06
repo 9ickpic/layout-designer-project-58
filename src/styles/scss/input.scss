@@ -85,6 +85,11 @@ section {
     opacity: 10%;
 }
 
+.bg-container {
+    background-color: $light;
+    z-index: -3;
+}
+
 .bg-container-brown::before {
     content: '';
     height: 950px;
@@ -300,10 +305,6 @@ header {
     }
 }
 
-h2 {
-    color: $main
-}
-
 .premature-optimization {
     @include flex-column();
     padding: 0 0 100px;
@@ -347,6 +348,67 @@ h2 {
             font-family: 'Open Sans', serif;
             font-weight: bold;
             background-color: #fff;
+            padding: 5px 0 5px 10px;
+        }
+
+        .present-text {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+            .mr-30 {
+                margin-right: 30px;
+            }
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
+
+.distortion-of-novelty {
+    @include flex-column();
+    padding: 0 0 100px;
+    color: $dark;
+    margin-bottom: 0;
+
+
+    .present {
+        @include flex-row();
+        flex-direction: row;
+
+        img {
+            margin-right: 30px;
+        }
+
+        .texture-text-opacity {
+            color: $opacity-dark;
+            font-family: 'Neucha', serif;
+            font-size: 24px;
+        }
+
+        h2 {
+            margin: 0 0 30px 0;
+            color: $dark;
+        }
+
+        p {
+            font-family: 'Neucha', serif;
+            font-size: 34px;
+            line-height: 40.8px;
+        }
+    }
+
+    .present-container-text {
+        @include flex-column();
+
+        h5 {
+            margin: 100px 0 20px 0;
+            width: 1100px;
+            color: #fff;
+            font-family: 'Open Sans', serif;
+            font-weight: bold;
+            background-color: $brown;
             padding: 5px 0 5px 10px;
         }
 
