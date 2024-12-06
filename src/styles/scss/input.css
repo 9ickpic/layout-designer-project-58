@@ -8,6 +8,11 @@ body {
   position: relative;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 h1,
 h2,
 h3,
@@ -43,18 +48,14 @@ section {
 
 .bg-container::before {
   content: "";
-  height: 100%;
-  width: 100%;
+  height: 914px;
+  width: 1440px;
   position: absolute;
   z-index: -2;
   background-image: url(/src/images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 10%;
-}
-
-.bg-container {
-  overflow: hidden;
 }
 
 header {
@@ -116,16 +117,15 @@ header a {
   margin-top: 0;
 }
 .preview-image h2 {
-  margin-top: 100px;
   margin-bottom: 30px;
 }
 .preview-image p {
   margin-top: -27px;
-  margin-bottom: -70px;
+  margin-bottom: -170px;
 }
 .preview-image a {
   position: relative;
-  bottom: -100px;
+  bottom: -200px;
 }
 .preview-image img {
   width: 919px;
@@ -135,7 +135,6 @@ header a {
 
 .bg-dark {
   position: relative;
-  top: -100px;
   z-index: -1;
   padding-top: 100px;
   background-color: #42413c;
@@ -146,7 +145,6 @@ header a {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 20px 30px;
-  padding-bottom: 100px;
 }
 .navigation .navigation-item {
   display: flex;
@@ -184,4 +182,53 @@ header a {
 .navigation .navigation-item p {
   margin: 0;
   max-height: 104px;
+}
+
+.ikea-effect {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 100px;
+}
+.ikea-effect .present {
+  display: flex;
+  flex-direction: row;
+}
+.ikea-effect .present img {
+  margin-right: 30px;
+}
+.ikea-effect .present .texture-text-opacity {
+  color: #908d8b;
+  font-family: "Neucha", serif;
+  font-size: 24px;
+}
+.ikea-effect .present h2 {
+  margin: 0 0 30px 0;
+}
+.ikea-effect .present p {
+  font-family: "Neucha", serif;
+  font-size: 34px;
+  line-height: 40.8px;
+}
+.ikea-effect .present-container-text {
+  display: flex;
+  flex-direction: column;
+}
+.ikea-effect .present-container-text h5 {
+  margin: 100px 0 20px 0;
+  width: 1100px;
+  color: #fff;
+  font-family: "Open Sans", serif;
+  font-weight: bold;
+  background-color: #b09a81;
+  padding: 5px 0 5px 10px;
+}
+.ikea-effect .present-container-text .present-text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.ikea-effect .present-container-text .present-text .mr-30 {
+  margin-right: 30px;
+}
+.ikea-effect .present-container-text .present-text p {
+  margin-top: 0;
 }/*# sourceMappingURL=input.css.map */
