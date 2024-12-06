@@ -36,6 +36,10 @@ main {
     @include flex-column();
 }
 
+img {
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
 h1,
 h2,
 h3,
@@ -81,8 +85,21 @@ section {
     opacity: 10%;
 }
 
-.bg-container {
-    // overflow: hidden;
+.bg-container-brown::before {
+    content: '';
+    height: 950px;
+    width: 1440px;
+    position: absolute;
+    z-index: -2;
+    background-image: url(/src/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 10%;
+}
+
+.bg-container-brown {
+    background-color: $brown;
+    z-index: -3;
 }
 
 header {
@@ -229,6 +246,7 @@ header {
 .ikea-effect {
     @include flex-column();
     padding: 0 0 100px;
+    margin-bottom: 0;
 
     .present {
         @include flex-row();
@@ -276,7 +294,72 @@ header {
             }
 
             p {
-                margin-top: 0;
+                margin: 0;
+            }
+        }
+    }
+}
+
+h2 {
+    color: $main
+}
+
+.premature-optimization {
+    @include flex-column();
+    padding: 0 0 100px;
+    color: #fff;
+    margin-bottom: 0;
+
+
+    .present {
+        @include flex-row();
+        flex-direction: row-reverse;
+
+        img {
+            margin-right: 30px;
+        }
+
+        .texture-text-opacity {
+            color: $opacity-white;
+            font-family: 'Neucha', serif;
+            font-size: 24px;
+        }
+
+        h2 {
+            margin: 0 0 30px 0;
+            color: #fff;
+        }
+
+        p {
+            font-family: 'Neucha', serif;
+            font-size: 34px;
+            line-height: 40.8px;
+        }
+    }
+
+    .present-container-text {
+        @include flex-column();
+
+        h5 {
+            margin: 100px 0 20px 0;
+            width: 1100px;
+            color: $brown;
+            font-family: 'Open Sans', serif;
+            font-weight: bold;
+            background-color: #fff;
+            padding: 5px 0 5px 10px;
+        }
+
+        .present-text {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+            .mr-30 {
+                margin-right: 30px;
+            }
+
+            p {
+                margin: 0;
             }
         }
     }
