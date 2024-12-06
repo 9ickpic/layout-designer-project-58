@@ -263,7 +263,8 @@ header {
 .ikea-effect,
 .premature-optimization,
 .distortion-of-novelty,
-.hyperbolic-depreciation {
+.hyperbolic-depreciation,
+.errors-in-planning {
     @include flex-column();
     padding: 0 0 100px;
     margin-bottom: 0;
@@ -321,7 +322,8 @@ header {
 }
 
 .ikea-effect,
-.distortion-of-novelty {
+.distortion-of-novelty,
+.errors-in-planning {
     color: $dark;
 
     .present {

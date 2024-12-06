@@ -225,7 +225,8 @@ header a {
 .ikea-effect,
 .premature-optimization,
 .distortion-of-novelty,
-.hyperbolic-depreciation {
+.hyperbolic-depreciation,
+.errors-in-planning {
   display: flex;
   flex-direction: column;
   padding: 0 0 100px;
@@ -234,33 +235,38 @@ header a {
 .ikea-effect .present,
 .premature-optimization .present,
 .distortion-of-novelty .present,
-.hyperbolic-depreciation .present {
+.hyperbolic-depreciation .present,
+.errors-in-planning .present {
   display: flex;
   flex-direction: row;
 }
 .ikea-effect .present img,
 .premature-optimization .present img,
 .distortion-of-novelty .present img,
-.hyperbolic-depreciation .present img {
+.hyperbolic-depreciation .present img,
+.errors-in-planning .present img {
   margin-right: 30px;
 }
 .ikea-effect .present .texture-text-opacity,
 .premature-optimization .present .texture-text-opacity,
 .distortion-of-novelty .present .texture-text-opacity,
-.hyperbolic-depreciation .present .texture-text-opacity {
+.hyperbolic-depreciation .present .texture-text-opacity,
+.errors-in-planning .present .texture-text-opacity {
   font-family: "Neucha", serif;
   font-size: 24px;
 }
 .ikea-effect .present h2,
 .premature-optimization .present h2,
 .distortion-of-novelty .present h2,
-.hyperbolic-depreciation .present h2 {
+.hyperbolic-depreciation .present h2,
+.errors-in-planning .present h2 {
   margin: 0 0 30px 0;
 }
 .ikea-effect .present p,
 .premature-optimization .present p,
 .distortion-of-novelty .present p,
-.hyperbolic-depreciation .present p {
+.hyperbolic-depreciation .present p,
+.errors-in-planning .present p {
   font-family: "Neucha", serif;
   font-size: 34px;
   line-height: 40.8px;
@@ -268,14 +274,16 @@ header a {
 .ikea-effect .present-container-text,
 .premature-optimization .present-container-text,
 .distortion-of-novelty .present-container-text,
-.hyperbolic-depreciation .present-container-text {
+.hyperbolic-depreciation .present-container-text,
+.errors-in-planning .present-container-text {
   display: flex;
   flex-direction: column;
 }
 .ikea-effect .present-container-text h5,
 .premature-optimization .present-container-text h5,
 .distortion-of-novelty .present-container-text h5,
-.hyperbolic-depreciation .present-container-text h5 {
+.hyperbolic-depreciation .present-container-text h5,
+.errors-in-planning .present-container-text h5 {
   margin: 100px 0 20px 0;
   width: 1100px;
   font-family: "Open Sans", serif;
@@ -285,41 +293,49 @@ header a {
 .ikea-effect .present-container-text .present-text,
 .premature-optimization .present-container-text .present-text,
 .distortion-of-novelty .present-container-text .present-text,
-.hyperbolic-depreciation .present-container-text .present-text {
+.hyperbolic-depreciation .present-container-text .present-text,
+.errors-in-planning .present-container-text .present-text {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 .ikea-effect .present-container-text .present-text .mr-30,
 .premature-optimization .present-container-text .present-text .mr-30,
 .distortion-of-novelty .present-container-text .present-text .mr-30,
-.hyperbolic-depreciation .present-container-text .present-text .mr-30 {
+.hyperbolic-depreciation .present-container-text .present-text .mr-30,
+.errors-in-planning .present-container-text .present-text .mr-30 {
   margin-right: 30px;
 }
 .ikea-effect .present-container-text .present-text p,
 .premature-optimization .present-container-text .present-text p,
 .distortion-of-novelty .present-container-text .present-text p,
-.hyperbolic-depreciation .present-container-text .present-text p {
+.hyperbolic-depreciation .present-container-text .present-text p,
+.errors-in-planning .present-container-text .present-text p {
   margin: 0;
 }
 
 .ikea-effect,
-.distortion-of-novelty {
+.distortion-of-novelty,
+.errors-in-planning {
   color: #2a2626;
 }
 .ikea-effect .present,
-.distortion-of-novelty .present {
+.distortion-of-novelty .present,
+.errors-in-planning .present {
   flex-direction: row;
 }
 .ikea-effect .present .texture-text-opacity,
-.distortion-of-novelty .present .texture-text-opacity {
+.distortion-of-novelty .present .texture-text-opacity,
+.errors-in-planning .present .texture-text-opacity {
   color: #908d8b;
 }
 .ikea-effect .present h2,
-.distortion-of-novelty .present h2 {
+.distortion-of-novelty .present h2,
+.errors-in-planning .present h2 {
   color: #2a2626;
 }
 .ikea-effect .present-container-text h5,
-.distortion-of-novelty .present-container-text h5 {
+.distortion-of-novelty .present-container-text h5,
+.errors-in-planning .present-container-text h5 {
   color: #fff;
   background-color: #b09a81;
 }
