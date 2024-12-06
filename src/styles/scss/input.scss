@@ -164,3 +164,63 @@ header {
         filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
     }
 }
+
+.bg-dark {
+    position: relative;
+    top: -100px;
+    z-index: -1;
+    padding-top: 100px;
+    background-color: $dark-main;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px 30px;
+    padding-bottom: 100px;
+
+    .navigation-item {
+        @include flex-column();
+        background-color: $light;
+        padding: 24px;
+        min-height: 299px;
+        max-height: 348px;
+
+        &.h3 {
+            background: none;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+
+            span {
+                white-space: nowrap;
+            }
+
+            h3 {
+                font-size: 52px;
+                line-height: 1;
+
+                margin: 0;
+            }
+        }
+
+        span {
+            margin-bottom: 40px;
+            font-size: 64px;
+            font-family: 'Neucha', serif;
+            line-height: 1;
+        }
+
+        h4 {
+            font-size: 34px;
+            margin-bottom: 16px;
+            margin-top: 0;
+        }
+
+        p {
+            margin: 0;
+            max-height: 104px;
+        }
+    }
+}
