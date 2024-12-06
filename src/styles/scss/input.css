@@ -222,266 +222,128 @@ header a {
   max-height: 104px;
 }
 
-.ikea-effect {
-  display: flex;
-  flex-direction: column;
-  padding: 0 0 100px;
-  margin-bottom: 0;
-}
-.ikea-effect .present {
-  display: flex;
-  flex-direction: row;
-}
-.ikea-effect .present img {
-  margin-right: 30px;
-}
-.ikea-effect .present .texture-text-opacity {
-  color: #908d8b;
-  font-family: "Neucha", serif;
-  font-size: 24px;
-}
-.ikea-effect .present h2 {
-  margin: 0 0 30px 0;
-}
-.ikea-effect .present p {
-  font-family: "Neucha", serif;
-  font-size: 34px;
-  line-height: 40.8px;
-}
-.ikea-effect .present-container-text {
-  display: flex;
-  flex-direction: column;
-}
-.ikea-effect .present-container-text h5 {
-  margin: 100px 0 20px 0;
-  width: 1100px;
-  color: #fff;
-  font-family: "Open Sans", serif;
-  font-weight: bold;
-  background-color: #b09a81;
-  padding: 5px 0 5px 10px;
-}
-.ikea-effect .present-container-text .present-text {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.ikea-effect .present-container-text .present-text .mr-30 {
-  margin-right: 30px;
-}
-.ikea-effect .present-container-text .present-text p {
-  margin: 0;
-}
-
-.premature-optimization {
-  display: flex;
-  flex-direction: column;
-  padding: 0 0 100px;
-  color: #fff;
-  margin-bottom: 0;
-}
-.premature-optimization .present {
-  display: flex;
-  flex-direction: row;
-  flex-direction: row-reverse;
-}
-.premature-optimization .present img {
-  margin-right: 30px;
-}
-.premature-optimization .present .texture-text-opacity {
-  color: #d7ccc0;
-  font-family: "Neucha", serif;
-  font-size: 24px;
-}
-.premature-optimization .present h2 {
-  margin: 0 0 30px 0;
-  color: #fff;
-}
-.premature-optimization .present p {
-  font-family: "Neucha", serif;
-  font-size: 34px;
-  line-height: 40.8px;
-}
-.premature-optimization .present-container-text {
-  display: flex;
-  flex-direction: column;
-}
-.premature-optimization .present-container-text h5 {
-  margin: 100px 0 20px 0;
-  width: 1100px;
-  color: #b09a81;
-  font-family: "Open Sans", serif;
-  font-weight: bold;
-  background-color: #fff;
-  padding: 5px 0 5px 10px;
-}
-.premature-optimization .present-container-text .present-text {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.premature-optimization .present-container-text .present-text .mr-30 {
-  margin-right: 30px;
-}
-.premature-optimization .present-container-text .present-text p {
-  margin: 0;
-}
-
-.distortion-of-novelty {
-  display: flex;
-  flex-direction: column;
-  padding: 0 0 100px;
-  color: #2a2626;
-  margin-bottom: 0;
-}
-.distortion-of-novelty .present {
-  display: flex;
-  flex-direction: row;
-  flex-direction: row;
-}
-.distortion-of-novelty .present img {
-  margin-right: 30px;
-}
-.distortion-of-novelty .present .texture-text-opacity {
-  color: #908d8b;
-  font-family: "Neucha", serif;
-  font-size: 24px;
-}
-.distortion-of-novelty .present h2 {
-  margin: 0 0 30px 0;
-  color: #2a2626;
-}
-.distortion-of-novelty .present p {
-  font-family: "Neucha", serif;
-  font-size: 34px;
-  line-height: 40.8px;
-}
-.distortion-of-novelty .present-container-text {
-  display: flex;
-  flex-direction: column;
-}
-.distortion-of-novelty .present-container-text h5 {
-  margin: 100px 0 20px 0;
-  width: 1100px;
-  color: #fff;
-  font-family: "Open Sans", serif;
-  font-weight: bold;
-  background-color: #b09a81;
-  padding: 5px 0 5px 10px;
-}
-.distortion-of-novelty .present-container-text .present-text {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.distortion-of-novelty .present-container-text .present-text .mr-30 {
-  margin-right: 30px;
-}
-.distortion-of-novelty .present-container-text .present-text p {
-  margin: 0;
-}
-
+.ikea-effect,
+.premature-optimization,
+.distortion-of-novelty,
 .hyperbolic-depreciation {
   display: flex;
   flex-direction: column;
   padding: 0 0 100px;
-  color: #fff;
   margin-bottom: 0;
 }
+.ikea-effect .present,
+.premature-optimization .present,
+.distortion-of-novelty .present,
 .hyperbolic-depreciation .present {
   display: flex;
   flex-direction: row;
-  flex-direction: row-reverse;
 }
+.ikea-effect .present img,
+.premature-optimization .present img,
+.distortion-of-novelty .present img,
 .hyperbolic-depreciation .present img {
   margin-right: 30px;
 }
+.ikea-effect .present .texture-text-opacity,
+.premature-optimization .present .texture-text-opacity,
+.distortion-of-novelty .present .texture-text-opacity,
 .hyperbolic-depreciation .present .texture-text-opacity {
-  color: #d7ccc0;
   font-family: "Neucha", serif;
   font-size: 24px;
 }
+.ikea-effect .present h2,
+.premature-optimization .present h2,
+.distortion-of-novelty .present h2,
 .hyperbolic-depreciation .present h2 {
   margin: 0 0 30px 0;
-  color: #fff;
 }
+.ikea-effect .present p,
+.premature-optimization .present p,
+.distortion-of-novelty .present p,
 .hyperbolic-depreciation .present p {
   font-family: "Neucha", serif;
   font-size: 34px;
   line-height: 40.8px;
 }
+.ikea-effect .present-container-text,
+.premature-optimization .present-container-text,
+.distortion-of-novelty .present-container-text,
 .hyperbolic-depreciation .present-container-text {
   display: flex;
   flex-direction: column;
 }
+.ikea-effect .present-container-text h5,
+.premature-optimization .present-container-text h5,
+.distortion-of-novelty .present-container-text h5,
 .hyperbolic-depreciation .present-container-text h5 {
   margin: 100px 0 20px 0;
   width: 1100px;
-  color: #b09a81;
   font-family: "Open Sans", serif;
   font-weight: bold;
-  background-color: #fff;
   padding: 5px 0 5px 10px;
 }
+.ikea-effect .present-container-text .present-text,
+.premature-optimization .present-container-text .present-text,
+.distortion-of-novelty .present-container-text .present-text,
 .hyperbolic-depreciation .present-container-text .present-text {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+.ikea-effect .present-container-text .present-text .mr-30,
+.premature-optimization .present-container-text .present-text .mr-30,
+.distortion-of-novelty .present-container-text .present-text .mr-30,
 .hyperbolic-depreciation .present-container-text .present-text .mr-30 {
   margin-right: 30px;
 }
+.ikea-effect .present-container-text .present-text p,
+.premature-optimization .present-container-text .present-text p,
+.distortion-of-novelty .present-container-text .present-text p,
 .hyperbolic-depreciation .present-container-text .present-text p {
   margin: 0;
 }
 
-.errors-in-planning {
-  display: flex;
-  flex-direction: column;
-  padding: 0 0 100px;
+.ikea-effect,
+.distortion-of-novelty {
   color: #2a2626;
-  margin-bottom: 0;
 }
-.errors-in-planning .present {
-  display: flex;
-  flex-direction: row;
+.ikea-effect .present,
+.distortion-of-novelty .present {
   flex-direction: row;
 }
-.errors-in-planning .present img {
-  margin-right: 30px;
-}
-.errors-in-planning .present .texture-text-opacity {
+.ikea-effect .present .texture-text-opacity,
+.distortion-of-novelty .present .texture-text-opacity {
   color: #908d8b;
-  font-family: "Neucha", serif;
-  font-size: 24px;
 }
-.errors-in-planning .present h2 {
-  margin: 0 0 30px 0;
+.ikea-effect .present h2,
+.distortion-of-novelty .present h2 {
   color: #2a2626;
 }
-.errors-in-planning .present p {
-  font-family: "Neucha", serif;
-  font-size: 34px;
-  line-height: 40.8px;
-}
-.errors-in-planning .present-container-text {
-  display: flex;
-  flex-direction: column;
-}
-.errors-in-planning .present-container-text h5 {
-  margin: 100px 0 20px 0;
-  width: 1100px;
+.ikea-effect .present-container-text h5,
+.distortion-of-novelty .present-container-text h5 {
   color: #fff;
-  font-family: "Open Sans", serif;
-  font-weight: bold;
   background-color: #b09a81;
-  padding: 5px 0 5px 10px;
 }
-.errors-in-planning .present-container-text .present-text {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+
+.premature-optimization,
+.hyperbolic-depreciation {
+  color: #fff;
 }
-.errors-in-planning .present-container-text .present-text .mr-30 {
-  margin-right: 30px;
+.premature-optimization .present,
+.hyperbolic-depreciation .present {
+  flex-direction: row-reverse;
 }
-.errors-in-planning .present-container-text .present-text p {
-  margin: 0;
+.premature-optimization .present .texture-text-opacity,
+.hyperbolic-depreciation .present .texture-text-opacity {
+  color: #d7ccc0;
+}
+.premature-optimization .present h2,
+.hyperbolic-depreciation .present h2 {
+  color: #fff;
+}
+.premature-optimization .present-container-text h5,
+.hyperbolic-depreciation .present-container-text h5 {
+  color: #b09a81;
+  background-color: #fff;
 }
 
 footer {

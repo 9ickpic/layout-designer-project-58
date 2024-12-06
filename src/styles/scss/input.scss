@@ -260,209 +260,29 @@ header {
     }
 }
 
-.ikea-effect {
-    @include flex-column();
-    padding: 0 0 100px;
-    margin-bottom: 0;
-
-    .present {
-        @include flex-row();
-
-        img {
-            margin-right: 30px;
-        }
-
-        .texture-text-opacity {
-            color: $opacity-dark;
-            font-family: 'Neucha', serif;
-            font-size: 24px;
-        }
-
-        h2 {
-            margin: 0 0 30px 0;
-        }
-
-        p {
-            font-family: 'Neucha', serif;
-            font-size: 34px;
-            line-height: 40.8px;
-        }
-    }
-
-    .present-container-text {
-        @include flex-column();
-
-        h5 {
-            margin: 100px 0 20px 0;
-            width: 1100px;
-            color: #fff;
-            font-family: 'Open Sans', serif;
-            font-weight: bold;
-            background-color: $brown;
-            padding: 5px 0 5px 10px;
-        }
-
-        .present-text {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-
-            .mr-30 {
-                margin-right: 30px;
-            }
-
-            p {
-                margin: 0;
-            }
-        }
-    }
-}
-
-.premature-optimization {
-    @include flex-column();
-    padding: 0 0 100px;
-    color: #fff;
-    margin-bottom: 0;
-
-
-    .present {
-        @include flex-row();
-        flex-direction: row-reverse;
-
-        img {
-            margin-right: 30px;
-        }
-
-        .texture-text-opacity {
-            color: $opacity-white;
-            font-family: 'Neucha', serif;
-            font-size: 24px;
-        }
-
-        h2 {
-            margin: 0 0 30px 0;
-            color: #fff;
-        }
-
-        p {
-            font-family: 'Neucha', serif;
-            font-size: 34px;
-            line-height: 40.8px;
-        }
-    }
-
-    .present-container-text {
-        @include flex-column();
-
-        h5 {
-            margin: 100px 0 20px 0;
-            width: 1100px;
-            color: $brown;
-            font-family: 'Open Sans', serif;
-            font-weight: bold;
-            background-color: #fff;
-            padding: 5px 0 5px 10px;
-        }
-
-        .present-text {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-
-            .mr-30 {
-                margin-right: 30px;
-            }
-
-            p {
-                margin: 0;
-            }
-        }
-    }
-}
-
-.distortion-of-novelty {
-    @include flex-column();
-    padding: 0 0 100px;
-    color: $dark;
-    margin-bottom: 0;
-
-
-    .present {
-        @include flex-row();
-        flex-direction: row;
-
-        img {
-            margin-right: 30px;
-        }
-
-        .texture-text-opacity {
-            color: $opacity-dark;
-            font-family: 'Neucha', serif;
-            font-size: 24px;
-        }
-
-        h2 {
-            margin: 0 0 30px 0;
-            color: $dark;
-        }
-
-        p {
-            font-family: 'Neucha', serif;
-            font-size: 34px;
-            line-height: 40.8px;
-        }
-    }
-
-    .present-container-text {
-        @include flex-column();
-
-        h5 {
-            margin: 100px 0 20px 0;
-            width: 1100px;
-            color: #fff;
-            font-family: 'Open Sans', serif;
-            font-weight: bold;
-            background-color: $brown;
-            padding: 5px 0 5px 10px;
-        }
-
-        .present-text {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-
-            .mr-30 {
-                margin-right: 30px;
-            }
-
-            p {
-                margin: 0;
-            }
-        }
-    }
-}
-
+.ikea-effect,
+.premature-optimization,
+.distortion-of-novelty,
 .hyperbolic-depreciation {
     @include flex-column();
     padding: 0 0 100px;
-    color: #fff;
     margin-bottom: 0;
-
 
     .present {
         @include flex-row();
-        flex-direction: row-reverse;
 
         img {
             margin-right: 30px;
         }
 
         .texture-text-opacity {
-            color: $opacity-white;
+            // color: $opacity-dark;
             font-family: 'Neucha', serif;
             font-size: 24px;
         }
 
         h2 {
             margin: 0 0 30px 0;
-            color: #fff;
         }
 
         p {
@@ -478,10 +298,10 @@ header {
         h5 {
             margin: 100px 0 20px 0;
             width: 1100px;
-            color: $brown;
+            // color: #fff;
             font-family: 'Open Sans', serif;
             font-weight: bold;
-            background-color: #fff;
+            // background-color: $brown;
             padding: 5px 0 5px 10px;
         }
 
@@ -500,63 +320,50 @@ header {
     }
 }
 
-.errors-in-planning {
-    @include flex-column();
-    padding: 0 0 100px;
+.ikea-effect,
+.distortion-of-novelty {
     color: $dark;
-    margin-bottom: 0;
-
 
     .present {
-        @include flex-row();
         flex-direction: row;
-
-        img {
-            margin-right: 30px;
-        }
 
         .texture-text-opacity {
             color: $opacity-dark;
-            font-family: 'Neucha', serif;
-            font-size: 24px;
         }
 
         h2 {
-            margin: 0 0 30px 0;
             color: $dark;
-        }
-
-        p {
-            font-family: 'Neucha', serif;
-            font-size: 34px;
-            line-height: 40.8px;
         }
     }
 
     .present-container-text {
-        @include flex-column();
-
         h5 {
-            margin: 100px 0 20px 0;
-            width: 1100px;
             color: #fff;
-            font-family: 'Open Sans', serif;
-            font-weight: bold;
-            background-color: $brown;
-            padding: 5px 0 5px 10px;
+            background-color: $brown
+        }
+    }
+}
+
+.premature-optimization,
+.hyperbolic-depreciation {
+    color: #fff;
+
+    .present {
+        flex-direction: row-reverse;
+
+        .texture-text-opacity {
+            color: $opacity-white;
         }
 
-        .present-text {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
+        h2 {
+            color: #fff;
+        }
+    }
 
-            .mr-30 {
-                margin-right: 30px;
-            }
-
-            p {
-                margin: 0;
-            }
+    .present-container-text {
+        h5 {
+            color: $brown;
+            background-color: #fff;
         }
     }
 }
