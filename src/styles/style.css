@@ -66,7 +66,7 @@ section {
   width: 1440px;
   position: absolute;
   z-index: -2;
-  background-image: url(/src/images/background.png);
+  background-image: url(./images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 10%;
@@ -84,7 +84,7 @@ section {
   width: 1440px;
   position: absolute;
   z-index: -2;
-  background-image: url(/src/images/background.png);
+  background-image: url(./images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 10%;
@@ -100,36 +100,44 @@ header {
   flex-direction: column;
   position: relative;
 }
+
 header .header-present {
   display: flex;
   flex-direction: row;
   position: relative;
 }
+
 header .header-present img {
   position: absolute;
   height: 525px;
   right: -270px;
   z-index: 1;
 }
+
 header .header-present h1 {
   width: 100%;
 }
+
 header .text {
   display: flex;
   flex-direction: row;
   margin-top: 125px;
 }
+
 header .text div {
   display: flex;
   width: 540px;
 }
+
 header .text .two-p {
   display: flex;
   flex-direction: column;
 }
+
 header .text .mr-30 {
   margin-right: 30px;
 }
+
 header a {
   text-decoration: none;
   color: #f5f4f0;
@@ -153,18 +161,22 @@ header a {
   text-align: center;
   margin-top: 0;
 }
+
 #preview-image h2 {
   margin-bottom: 30px;
   margin-top: 100px;
 }
+
 #preview-image p {
   margin-top: -27px;
   margin-bottom: -170px;
 }
+
 #preview-image a {
   position: relative;
   bottom: -200px;
 }
+
 #preview-image img {
   width: 919px;
   height: 517px;
@@ -184,6 +196,7 @@ header a {
   grid-template-rows: repeat(2, 1fr);
   gap: 20px 30px;
 }
+
 #navigation .navigation-item {
   display: flex;
   flex-direction: column;
@@ -192,31 +205,37 @@ header a {
   min-height: 299px;
   max-height: 348px;
 }
+
 #navigation .navigation-item.h3 {
   background: none;
   color: #fff;
   padding: 0;
   margin: 0;
 }
+
 #navigation .navigation-item.h3 span {
   white-space: nowrap;
 }
+
 #navigation .navigation-item.h3 h3 {
   font-size: 52px;
   line-height: 1;
   margin: 0;
 }
+
 #navigation .navigation-item span {
   margin-bottom: 40px;
   font-size: 64px;
   font-family: "Neucha", serif;
   line-height: 1;
 }
+
 #navigation .navigation-item h4 {
   font-size: 34px;
   margin-bottom: 16px;
   margin-top: 0;
 }
+
 #navigation .navigation-item p {
   margin: 0;
   max-height: 104px;
@@ -232,6 +251,7 @@ header a {
   padding: 0 0 100px;
   margin-bottom: 0;
 }
+
 #ikea-effect .present,
 #premature-optimization .present,
 #distortion-of-novelty .present,
@@ -240,6 +260,7 @@ header a {
   display: flex;
   flex-direction: row;
 }
+
 #ikea-effect .present img,
 #premature-optimization .present img,
 #distortion-of-novelty .present img,
@@ -247,6 +268,7 @@ header a {
 #errors-in-planning .present img {
   margin-right: 30px;
 }
+
 #ikea-effect .present .texture-text-opacity,
 #premature-optimization .present .texture-text-opacity,
 #distortion-of-novelty .present .texture-text-opacity,
@@ -255,6 +277,7 @@ header a {
   font-family: "Neucha", serif;
   font-size: 24px;
 }
+
 #ikea-effect .present h2,
 #premature-optimization .present h2,
 #distortion-of-novelty .present h2,
@@ -262,6 +285,7 @@ header a {
 #errors-in-planning .present h2 {
   margin: 0 0 30px 0;
 }
+
 #ikea-effect .present p,
 #premature-optimization .present p,
 #distortion-of-novelty .present p,
@@ -271,6 +295,7 @@ header a {
   font-size: 34px;
   line-height: 40.8px;
 }
+
 #ikea-effect .present-container-text,
 #premature-optimization .present-container-text,
 #distortion-of-novelty .present-container-text,
@@ -279,6 +304,7 @@ header a {
   display: flex;
   flex-direction: column;
 }
+
 #ikea-effect .present-container-text h5,
 #premature-optimization .present-container-text h5,
 #distortion-of-novelty .present-container-text h5,
@@ -290,6 +316,7 @@ header a {
   font-weight: bold;
   padding: 5px 0 5px 10px;
 }
+
 #ikea-effect .present-container-text .present-text,
 #premature-optimization .present-container-text .present-text,
 #distortion-of-novelty .present-container-text .present-text,
@@ -298,6 +325,7 @@ header a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
 #ikea-effect .present-container-text .present-text .mr-30,
 #premature-optimization .present-container-text .present-text .mr-30,
 #distortion-of-novelty .present-container-text .present-text .mr-30,
@@ -305,6 +333,7 @@ header a {
 #errors-in-planning .present-container-text .present-text .mr-30 {
   margin-right: 30px;
 }
+
 #ikea-effect .present-container-text .present-text p,
 #premature-optimization .present-container-text .present-text p,
 #distortion-of-novelty .present-container-text .present-text p,
@@ -318,21 +347,25 @@ header a {
 #errors-in-planning {
   color: #2a2626;
 }
+
 #ikea-effect .present,
 #distortion-of-novelty .present,
 #errors-in-planning .present {
   flex-direction: row;
 }
+
 #ikea-effect .present .texture-text-opacity,
 #distortion-of-novelty .present .texture-text-opacity,
 #errors-in-planning .present .texture-text-opacity {
   color: #908d8b;
 }
+
 #ikea-effect .present h2,
 #distortion-of-novelty .present h2,
 #errors-in-planning .present h2 {
   color: #2a2626;
 }
+
 #ikea-effect .present-container-text h5,
 #distortion-of-novelty .present-container-text h5,
 #errors-in-planning .present-container-text h5 {
@@ -344,18 +377,22 @@ header a {
 #hyperbolic-depreciation {
   color: #fff;
 }
+
 #premature-optimization .present,
 #hyperbolic-depreciation .present {
   flex-direction: row-reverse;
 }
+
 #premature-optimization .present .texture-text-opacity,
 #hyperbolic-depreciation .present .texture-text-opacity {
   color: #d7ccc0;
 }
+
 #premature-optimization .present h2,
 #hyperbolic-depreciation .present h2 {
   color: #fff;
 }
+
 #premature-optimization .present-container-text h5,
 #hyperbolic-depreciation .present-container-text h5 {
   color: #b09a81;
@@ -370,6 +407,7 @@ footer {
   height: 581px;
   margin: 0 auto;
 }
+
 footer .container {
   background-color: #42413c;
   color: #fff;
@@ -380,15 +418,18 @@ footer .container {
   justify-content: space-between;
   align-items: center;
 }
+
 footer .container h3 {
   padding: 55px;
 }
+
 footer .container form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0 55px;
 }
+
 footer .container form div {
   width: 415px;
   display: flex;
@@ -396,9 +437,11 @@ footer .container form div {
   align-items: center;
   margin-top: 15px;
 }
+
 footer .container form .font {
   font-size: 18px;
 }
+
 footer .container form input {
   height: 50px;
   width: 100%;
@@ -408,6 +451,7 @@ footer .container form input {
   padding-right: 0;
   border: none;
 }
+
 footer .container form button {
   position: relative;
   min-height: 50px;
@@ -418,18 +462,22 @@ footer .container form button {
   border-radius: 0;
   background-color: #fe8a02;
 }
+
 footer .container form button::before {
-  content: url(/src/images/send.svg);
+  content: url(./images/send.svg);
   position: absolute;
   transform: translateY(-50%) translateX(-50%);
 }
+
 footer .container form .accept {
   font-size: 12px;
 }
+
 footer .author {
   margin-top: 76px;
   margin-bottom: 16px;
 }
+
 footer p {
   margin-top: 0;
   margin-bottom: 16px;
