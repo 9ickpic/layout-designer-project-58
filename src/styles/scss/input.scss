@@ -175,7 +175,7 @@ header {
     background-color: #fff;
 }
 
-.preview-image {
+#preview-image {
     @include flex-column();
     text-align: center;
     margin-top: 0;
@@ -260,11 +260,11 @@ header {
     }
 }
 
-.ikea-effect,
-.premature-optimization,
-.distortion-of-novelty,
-.hyperbolic-depreciation,
-.errors-in-planning {
+#ikea-effect,
+#premature-optimization,
+#distortion-of-novelty,
+#hyperbolic-depreciation,
+#errors-in-planning {
     @include flex-column();
     padding: 0 0 100px;
     margin-bottom: 0;
@@ -321,9 +321,9 @@ header {
     }
 }
 
-.ikea-effect,
-.distortion-of-novelty,
-.errors-in-planning {
+#ikea-effect,
+#distortion-of-novelty,
+#errors-in-planning {
     color: $dark;
 
     .present {
@@ -346,8 +346,8 @@ header {
     }
 }
 
-.premature-optimization,
-.hyperbolic-depreciation {
+#premature-optimization,
+#hyperbolic-depreciation {
     color: #fff;
 
     .present {
