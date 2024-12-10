@@ -209,7 +209,7 @@ header {
     background-color: $dark-main;
 }
 
-.navigation {
+#navigation {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);

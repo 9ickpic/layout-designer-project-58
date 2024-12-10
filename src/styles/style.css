@@ -178,13 +178,13 @@ header a {
   background-color: #42413c;
 }
 
-.navigation {
+#navigation {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 20px 30px;
 }
-.navigation .navigation-item {
+#navigation .navigation-item {
   display: flex;
   flex-direction: column;
   background-color: #f5f4f0;
@@ -192,32 +192,32 @@ header a {
   min-height: 299px;
   max-height: 348px;
 }
-.navigation .navigation-item.h3 {
+#navigation .navigation-item.h3 {
   background: none;
   color: #fff;
   padding: 0;
   margin: 0;
 }
-.navigation .navigation-item.h3 span {
+#navigation .navigation-item.h3 span {
   white-space: nowrap;
 }
-.navigation .navigation-item.h3 h3 {
+#navigation .navigation-item.h3 h3 {
   font-size: 52px;
   line-height: 1;
   margin: 0;
 }
-.navigation .navigation-item span {
+#navigation .navigation-item span {
   margin-bottom: 40px;
   font-size: 64px;
   font-family: "Neucha", serif;
   line-height: 1;
 }
-.navigation .navigation-item h4 {
+#navigation .navigation-item h4 {
   font-size: 34px;
   margin-bottom: 16px;
   margin-top: 0;
 }
-.navigation .navigation-item p {
+#navigation .navigation-item p {
   margin: 0;
   max-height: 104px;
 }
