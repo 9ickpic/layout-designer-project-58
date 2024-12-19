@@ -1,0 +1,198 @@
+.container {
+  max-width: 1110px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body {
+  font-family: "Open Sans", serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2a2626;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Neucha";
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+h1 span.custom-text--nowrap {
+  white-space: nowrap;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+section {
+  max-width: 1110px;
+  padding: 100px 0;
+}
+
+.custom-text--white {
+  color: #fff;
+}
+.custom-bg--white {
+  background-color: #fff;
+}
+
+.custom-text--opacity-white {
+  color: #d7ccc0;
+}
+.custom-bg--opacity-white {
+  background-color: #d7ccc0;
+}
+
+.custom-text--light {
+  color: #f5f4f0;
+}
+.custom-bg--light {
+  background-color: #f5f4f0;
+}
+
+.custom-text--main {
+  color: #fe8a02;
+}
+.custom-bg--main {
+  background-color: #fe8a02;
+}
+
+.custom-text--dark {
+  color: #2a2626;
+}
+.custom-bg--dark {
+  background-color: #2a2626;
+}
+
+.custom-text--opacity-dark {
+  color: #908d8b;
+}
+.custom-bg--opacity-dark {
+  background-color: #908d8b;
+}
+
+.custom-text--brown {
+  color: #b09a81;
+}
+.custom-bg--brown {
+  background-color: #b09a81;
+}
+
+.custom-text--blue {
+  color: #1085c5;
+}
+.custom-bg--blue {
+  background-color: #1085c5;
+}
+
+.custom-p-block {
+  margin-top: 185px;
+}
+.custom-p-block .col {
+  width: 100%/2;
+}
+.custom-p-block .mr-30 {
+  margin-right: 30px;
+}
+.custom-p-block a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  padding: 0;
+  width: 148px;
+  height: 49px;
+  background-color: #fe8a02;
+  color: white;
+  font-weight: 700;
+}
+
+.col {
+  padding: 0;
+}
+
+.col-1 {
+  padding: 0;
+}
+
+.col-2 {
+  padding: 0;
+}
+
+.col-3 {
+  padding: 0;
+}
+
+.col-4 {
+  padding: 0;
+}
+
+.col-5 {
+  padding: 0;
+}
+
+.col-6 {
+  padding: 0;
+}
+
+.col-7 {
+  padding: 0;
+}
+
+.col-8 {
+  padding: 0;
+}
+
+.col-9 {
+  padding: 0;
+}
+
+.col-10 {
+  padding: 0;
+}
+
+.col-11 {
+  padding: 0;
+}
+
+.col-12 {
+  padding: 0;
+}
+
+.header {
+  position: relative;
+}
+.header::before {
+  content: url(/src/images/background.png);
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+  background-repeat: no-repeat;
+  background-color: cover;
+  opacity: 10%;
+}
+.header h1 {
+  width: 100%;
+}
+.header img {
+  height: 525px;
+  position: absolute;
+  top: 55px;
+  right: -270px;
+  z-index: -5;
+}
